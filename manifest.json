@@ -1,0 +1,16 @@
+{
+    "name": "DN.se Paywall Remover",
+    "description": "Remove the paywall on dn.se",
+    "version": "1.0",
+    "permissions": [
+        "tabs",
+        "http://*/*",
+        "https://*/*"
+    ],
+    "browser_action": {
+        "default_title": "DN.se.",
+        "default_icon": "icon.png",
+        "default_popup": "popup.html"
+    },
+    "manifest_version": 2
+}
